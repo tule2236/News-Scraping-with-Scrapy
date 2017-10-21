@@ -51,4 +51,5 @@ If I want to write the scraped content to csv file and don't display the content
 ```
 scrapy crawl --nolog --output=export.csv samsung_Spider
 ```
-The source code doesn't contain the date in a clear structure, so I obtained the date from the URL links and then, I write a script **convert_file.py** to extract the date from the URL and re-format them to *MM/DD/YY*
+The source code doesn't contain the date in a clear structure, so I obtained the date from the URL links and then, I write a script **convert_file.py** to extract the date from the URL and re-format them to *MM/DD/YY*  
+The sample scraped data is stored in **News** folder.
