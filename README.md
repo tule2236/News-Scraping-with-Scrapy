@@ -40,21 +40,6 @@ Create the first Spider named **samsung_Spider** followed with the link of the n
 ```
 scrapy genspider samsung_Spider www.reuter.com
 ```
-Up to this point, my directory will be like this:
-```
-samsung
-    spiders
-        __init__.py
-        samsung_Spider.py
-    __init__.py
-    url_list.txt
-    link_generator.py
-    convert_file.py
-    items.py
-    middlewares.py
-    pipelines.py
-    settings.py 
-```
 ## Running the Test
   I write a script **link_generator.py** to generate all the URL links of Reuters news of 22 companies from January 1, 2011 to December 31, 2017. Each company would have 365 days x 6 years = 2190 links, and I end up with 2190 x 22 = 48180 links stored in **url_list.txt**  
   Then, I construct my Spider in **samsung_Spider.py**.  
